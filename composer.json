@@ -18,10 +18,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/MrChozo/laravel-db2"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "zendtech/ibmitoolkit": "^1.9.0",
-        "cooperl/laravel-db2": "^8.1"
+        "cooperl/laravel-db2": "10.x-dev"
     },
     "require-dev": {
     },
